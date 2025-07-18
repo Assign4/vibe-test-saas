@@ -1,0 +1,21 @@
+{
+  "name": "vibe-test-saas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:ui && npm run test:api",
+    "test:ui": "playwright test tests/ui.test.js",
+    "test:api": "mocha tests/api.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "mocha": "^11.7.1",
+    "pactum": "^3.8.0",
+    "playwright": "^1.54.1"
+  }
+}
